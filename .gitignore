@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data - The raw data is version controlled, but processed data might not be.
+# data/processed/
+
+# Results - Often, results are not version controlled as they can be regenerated.
+# For this project, we will keep them for now, but this is good practice.
+# results/*
+# !results/.gitkeep
+
+# System
+.DS_Store
+Thumbs.db
