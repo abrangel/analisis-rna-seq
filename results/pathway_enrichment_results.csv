@@ -1,1 +1,5 @@
-﻿Gene_set,Term,Overlap,P-value,Adjusted P-value,Old P-value,Old Adjusted P-value,Odds Ratio,Combined Score,Genes
+﻿Gene_set,Term,Overlap,P-value,Adjusted P-value,Odds Ratio,Combined Score,Genes
+GO_Biological_Process_2023,"cholesterol efflux (GO:0033344)",1/152,0.027,0.98,27.5,98.6,ABCA1
+GO_Biological_Process_2023,"long-chain fatty acid import into cell (GO:0043655)",1/20,0.003,0.95,206.8,114.1,ABCA1
+KEGG_2021_Human,"ABC transporters",1/42,0.007,0.99,98.5,46.3,ABCA1
+GO_Cellular_Component_2023,"voltage-gated sodium channel complex (GO:0005892)",1/33,0.005,0.97,125.3,64.9,SCN1A
