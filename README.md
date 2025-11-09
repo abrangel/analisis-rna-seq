@@ -24,6 +24,20 @@ Las listas de genes diana para cada uno de los 5 miRNAs se obtuvieron de la base
 
 *Nota: Se asumió que las dianas de `hsa-miR-33a-5p` son equivalentes a las de `hsa-miR-33b-5p` debido a que pertenecen a la misma familia, para resolver una discrepancia en los datos iniciales.*
 
+#### Guía paso a paso para la obtención de datos en TargetScan
+
+Para replicar la obtención de datos manuales originales, se siguieron estos pasos en la plataforma TargetScan:
+
+1.  **Búsqueda del miRNA:** Seleccionar la especie "Human" e ingresar el nombre del microARN deseado (por ejemplo, `hsa-miR-33-5p`) en el campo de búsqueda correspondiente.
+    ![Búsqueda de miRNA en TargetScan] <img width="880" height="538" alt="image" src="https://github.com/user-attachments/assets/81aebb00-bc17-4bef-bd66-962230a77b1f" />
+
+2.  **Acceso a la Tabla de Resultados:** Una vez generada la lista de transcritos predichos, localizar el enlace **[Download table]** situado sobre la tabla de resultados a la derecha.
+    ![Ubicación del enlace de descarga] <img width="882" height="214" alt="image" src="https://github.com/user-attachments/assets/db43e59b-2e23-4cb1-af3f-a164d6ea3f99" />
+
+3.  **Descarga del Archivo:** Al hacer clic, se abrirán las opciones de descarga. Se selecciona el formato de texto (`.txt`) para su posterior procesamiento en los scripts de análisis.
+    ![Opciones de descarga de dianas]<img width="333" height="47" alt="image" src="https://github.com/user-attachments/assets/5a34973e-cc34-43bb-bef5-14f4d528d201" />
+9.png)
+
 ### Flujo de Trabajo del Análisis
 
 El proyecto sigue un flujo de trabajo automatizado de dos pasos, como se ilustra en el siguiente diagrama:
