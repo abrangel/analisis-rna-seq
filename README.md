@@ -4,24 +4,37 @@
 
 Este proyecto realiza un análisis bioinformático para identificar **genes diana comunes** a un conjunto de 5 microARNs (miRNAs) y, posteriormente, determinar las **rutas de señalización y procesos biológicos** en los que estos genes comunes están involucrados.
 
-El flujo de trabajo está automatizado mediante scripts de Python, garantizando la reproducibilidad y eficiencia del análisis.
+El flujo de trabajo está automatizado mediante scripts de Python, garantizando la reproducibilidad y eficiencia del análisis, desde la obtención de los datos hasta la interpretación biológica de los resultados.
 
 ---
 
-## 2. Flujo de Trabajo del Análisis
+## 2. Metodología
 
-El proyecto se divide en dos etapas principales:
+### Obtención de Datos
 
-1.  **Identificación de Genes Comunes:**
-    -   El script `01_find_common_genes.py` lee las listas de genes diana predichos para cada uno de los 5 miRNAs.
-    -   Calcula la **intersección** de todas las listas para encontrar aquellos genes que son regulados por todos los miRNAs simultáneamente.
-    -   El resultado es una lista limpia de genes comunes que se guarda en `results/common_genes.txt`.
+Las listas de genes diana para cada uno de los 5 miRNAs se obtuvieron de la base de datos **TargetScanHuman 8.0**. Esta base de datos proporciona predicciones de dianas de miRNAs basadas en la conservación de la secuencia y otros parámetros.
 
-2.  **Análisis de Enriquecimiento de Rutas:**
-    -   El script `02_pathway_analysis.py` toma la lista de genes comunes generada en el paso anterior.
-    -   Se conecta a bases de datos públicas (a través de la API de Enrichr) para realizar un **análisis de enriquecimiento funcional**.
-    -   Identifica si los genes comunes están sobrerrepresentados en rutas de señalización **KEGG** o en términos de **Gene Ontology (GO)**.
-    -   El resultado es una tabla con las rutas y funciones más significativas, que se guarda en `results/pathway_enrichment_results.csv`.
+-   **Fuente de Datos:** [TargetScanHuman - v8.0](https://www.targetscan.org/vert_80/)
+-   **miRNAs Analizados:**
+    -   `hsa-miR-106b-5p`
+    -   `hsa-miR-144-3p`
+    -   `hsa-miR-33a-5p`
+    -   `hsa-miR-33b-5p`
+    -   `hsa-miR-758-3p`
+
+*Nota: Se asumió que las dianas de `hsa-miR-33a-5p` son equivalentes a las de `hsa-miR-33b-5p` debido a que pertenecen a la misma familia, para resolver una discrepancia en los datos iniciales.*
+
+### Flujo de Trabajo del Análisis
+
+El proyecto sigue un flujo de trabajo automatizado de dos pasos, como se ilustra en el siguiente diagrama:
+
+```mermaid
+graph TD;
+    A[<B>Paso 1: Obtención de Datos</B><br>5 Listas de Genes de TargetScan] --> B{<B>Script 1:</B><br>01_find_common_genes.py};
+    B -- <B>Calcula la intersección</B> --> C[<B>Resultado 1:</B><br>common_genes.txt<br>(5 genes comunes)];
+    C --> D{<B>Script 2:</B><br>02_pathway_analysis.py};
+    D -- <B>Análisis de Enriquecimiento<br>(GO & KEGG)</B> --> E[<B>Resultado 2:</B><br>pathway_enrichment_results.csv];
+```
 
 ---
 
@@ -62,22 +75,19 @@ El proyecto se divide en dos etapas principales:
 
 ### Pasos para la Ejecución
 
-1.  **Completar los Datos:** Asegúrate de que los 5 archivos `.txt` en la carpeta `data/raw/` contienen las listas de genes correctas. Especialmente, rellena el archivo `hsa-miR-106b-5p.txt` si está vacío.
+1.  **Clonar el Repositorio:**
+    ```bash
+    git clone https://github.com/abrangel/analisis-rna-seq.git
+    cd analisis-rna-seq
+    ```
 
-2.  **Ejecutar el Script 1 (Encontrar Genes Comunes):**
-    -   Abre una terminal y navega a la carpeta `scripts`.
-    -   Ejecuta el siguiente comando:
+2.  **Ejecutar el Flujo de Análisis Completo:**
+    -   Navega a la carpeta `scripts` y ejecuta los scripts en orden:
         ```bash
+        cd scripts
         python 01_find_common_genes.py
-        ```
-    -   Verifica que el archivo `results/common_genes.txt` se ha creado.
-
-3.  **Ejecutar el Script 2 (Análisis de Rutas):**
-    -   En la misma terminal, ejecuta el segundo script:
-        ```bash
         python 02_pathway_analysis.py
         ```
-    -   Verifica que el archivo `results/pathway_enrichment_results.csv` se ha creado.
 
-4.  **Analizar los Resultados:**
-    -   Abre los archivos generados en la carpeta `results` para ver los genes comunes y las rutas de señalización enriquecidas.
+3.  **Analizar los Resultados:**
+    -   Los archivos finales se encuentran en la carpeta `results`. Puedes abrirlos con un editor de texto o un programa de hojas de cálculo.
