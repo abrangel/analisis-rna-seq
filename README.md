@@ -8,6 +8,7 @@ El flujo de trabajo está automatizado mediante scripts de Python, garantizando 
 
 ## 1.1 Objetivo
 Determinar los pathways biológicos y rutas de señalización significativamente enriquecidos en el conjunto de genes comunes a los cinco miARNs, e interpretar su posible implicación funcional.
+
 ---
 
 ## 2. Metodología
