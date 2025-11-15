@@ -13,7 +13,7 @@ Este proyecto realiza un análisis bioinformático para identificar **genes dian
 
 El flujo de trabajo está automatizado mediante scripts de Python, garantizando la reproducibilidad y eficiencia del análisis, desde la obtención de los datos hasta la interpretación biológica de los resultados.
 ### 1.1 Objetivos
-#### dddd
+#### Determinar los pathways biológicos y rutas de señalización significativamente enriquecidos en el conjunto de genes comunes a los cinco miARNs, e interpretar su posible implicación funcional.
 ### 1.2 Propositos especificos
 #### Caracterizar la función molecular de cada uno de los cinco genes comunes para identificar sus roles en procesos biológicos fundamentales.
 
