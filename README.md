@@ -1,5 +1,12 @@
 ﻿# Análisis de Dianas Comunes de miRNAs y Rutas de Señalización
 
+## Integrantes
+ Alanis Rafaela Jarre Moreano
+ Claudia Melissa Alvarado Cantos
+ Andrés Dario Ñauñay Puente
+ Cesar Abrahan Manzo Carvajal
+ Ana Belén Mejía Pérez
+
 ## 1. Resumen del Proyecto
 
 Este proyecto realiza un análisis bioinformático para identificar **genes diana comunes** a un conjunto de 5 microARNs (miRNAs) y, posteriormente, determinar las **rutas de señalización y procesos biológicos** en los que estos genes comunes están involucrados.
