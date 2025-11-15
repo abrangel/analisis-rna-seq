@@ -12,7 +12,16 @@
 Este proyecto realiza un análisis bioinformático para identificar **genes diana comunes** a un conjunto de 5 microARNs (miRNAs) y, posteriormente, determinar las **rutas de señalización y procesos biológicos** en los que estos genes comunes están involucrados.
 
 El flujo de trabajo está automatizado mediante scripts de Python, garantizando la reproducibilidad y eficiencia del análisis, desde la obtención de los datos hasta la interpretación biológica de los resultados.
+### 1.1 Objetivos
+#### dddd
+### 1.2 Propositos especificos
+#### Caracterizar la función molecular de cada uno de los cinco genes comunes para identificar sus roles en procesos biológicos fundamentales.
 
+#### Determinar los pathways (rutas metabólicas o de señalización) enriquecidos en el conjunto de genes compartidos por los miRNAs.
+
+#### Evaluar la relación funcional entre los cinco genes para identificar posibles redes o interacciones proteicas relevantes.
+
+#### Interpretar la relevancia biológica de estos genes en el contexto del fenómeno o patología estudiada
 ---
 
 ## 2. Metodología
