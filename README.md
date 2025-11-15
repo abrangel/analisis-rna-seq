@@ -7,22 +7,15 @@
 - Cesar Abrahan Manzo Carvajal  
 - Ana Belén Mejía Pérez  
 
-## 1. Resumen del Proyecto
+## 1. Objetivo del Proyecto
 
-Este proyecto realiza un análisis bioinformático para identificar **genes diana comunes** a un conjunto de 5 microARNs (miRNAs) y, posteriormente, determinar las **rutas de señalización y procesos biológicos** en los que estos genes comunes están involucrados.
+Realizar un análisis bioinformático para identificar **genes diana comunes** a un conjunto de 5 microARNs (miRNAs) y, posteriormente, determinar las **rutas de señalización y procesos biológicos** en los que estos genes comunes están involucrados.
 
 El flujo de trabajo está automatizado mediante scripts de Python, garantizando la reproducibilidad y eficiencia del análisis, desde la obtención de los datos hasta la interpretación biológica de los resultados.
-### 1.1 Objetivos
-#### Determinar los pathways biológicos y rutas de señalización significativamente enriquecidos en el conjunto de genes comunes a los cinco miARNs, e interpretar su posible implicación funcional.
-### 1.2 Propositos especificos
-#### Caracterizar la función molecular de cada uno de los cinco genes comunes para identificar sus roles en procesos biológicos fundamentales.
+## 1.1 Proposito del Proyecto
+Caracterizar la función molecular de cada uno de los cinco genes comunes para identificar sus roles en procesos biológicos fundamentales.
 
-#### Determinar los pathways (rutas metabólicas o de señalización) enriquecidos en el conjunto de genes compartidos por los miRNAs.
-
-#### Evaluar la relación funcional entre los cinco genes para identificar posibles redes o interacciones proteicas relevantes.
-
-#### Interpretar la relevancia biológica de estos genes en el contexto del fenómeno o patología estudiada
----
+Determinar los pathways (rutas metabólicas o de señalización) enriquecidos en el conjunto de genes compartidos por los miRNAs.
 
 ## 2. Metodología
 
@@ -102,10 +95,8 @@ graph TD;
 ## 4. Instrucciones de Uso
 ### Pre-requisitos
 #### Instalar git, use el siguiente comando: winget install --id Git.Git -e --source winget
-### Prerrequisitos
-
--   Python 3.x
--   Las librerías de Python `pandas` y `gseapy`. Se pueden instalar con el siguiente comando:
+#### Python 3.x
+#### Las librerías de Python `pandas` y `gseapy`. Se pueden instalar con el siguiente comando:
     ```bash
     pip install pandas gseapy
     ```
