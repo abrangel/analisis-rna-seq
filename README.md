@@ -120,7 +120,7 @@ graph TD;
     -   Los archivos finales se encuentran en la carpeta `results`. Puedes abrirlos con un editor de texto o un programa de hojas de cálculo.
   
 ## 5. Verificación de 5 genes en comun con Venn
-<img width="880" height="538" alt="image" src="https://github.com/abrangel/analisis-rna-seq/blob/main/results/venn_result19894.png" />
+<img width="880" height="400" alt="image" src="https://github.com/abrangel/analisis-rna-seq/blob/main/results/venn_result19894.png" />
 ### Análisis de verificación de los 5 genes en común
     -   ABCA1
         Destaca en el presente caso clínico. Al utilizar ATP genera la translocación de fosfolípidos desde la monocapa citoplasmática a la extracelular de la membrana, de este modo participa en la transferencia de fosfolípidos a las apolipoproteínas para formar lipoproteínas de alta densidad (HDL). Además, podría participar en la liberación de colesterol intracelular hacia las apolipoproteínas.
