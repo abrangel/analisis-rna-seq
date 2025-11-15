@@ -5,7 +5,7 @@
 - Claudia Melissa Alvarado Cantos  
 - Andrés Darío Ñauñay Puente  
 - Cesar Abrahan Manzo Carvajal  
-- Ana Belén Pérez  
+- Ana Belén Mejía Pérez  
 
 ## 1. Resumen del Proyecto
 
