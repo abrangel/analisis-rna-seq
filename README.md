@@ -134,15 +134,20 @@ graph TD;
 #### SNTB2
         Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos secretores.
 ### Lista de genes/proteínas de humano y realiza el análisis de anotación seleccionando:
+
 #### Gene Ontology (GO) biological process.
 <p align="center">
   <img src="https://raw.githubusercontent.com/abrangel/analisis-rna-seq/refs/heads/main/results/GO_BP.png" width="600">
 </p>
+
 #### Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/abrangel/analisis-rna-seq/refs/heads/main/results/KEGG.png" width="600">
 </p>
+
 #### Reactome
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/abrangel/analisis-rna-seq/refs/heads/main/results/Reactome.png" width="600">
 </p>
