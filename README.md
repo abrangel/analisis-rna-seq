@@ -78,6 +78,7 @@ graph TD;
 │   ├── 📄 SCNA1 Pathway.png
 │   ├── 📄 SNTB2 Pathway.png
 │   ├── 📄 common_genes.txt
+│   ├── 📄 go_network_plot.png
 │   ├── 📄 pathway_enrichment_results.csv
 │   └── 📄 venn_result19894.png
 ├── 📁 scripts/
