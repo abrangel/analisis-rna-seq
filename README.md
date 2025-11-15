@@ -1,6 +1,6 @@
 ﻿# Análisis de Dianas Comunes de miRNAs y Rutas de Señalización
 
-## 1. Resumen del Proyecto
+## 2. Resumen del Proyecto
 
 Este proyecto realiza un análisis bioinformático para identificar **genes diana comunes** a un conjunto de 5 microARNs (miRNAs) y, posteriormente, determinar las **rutas de señalización y procesos biológicos** en los que estos genes comunes están involucrados.
 
@@ -8,7 +8,7 @@ El flujo de trabajo está automatizado mediante scripts de Python, garantizando 
 
 ---
 
-## 2. Metodología
+## 3. Metodología
 
 ### Obtención de Datos
 
@@ -52,7 +52,7 @@ graph TD;
 
 ---
 
-## 3. Estructura del Repositorio
+## 4. Estructura del Repositorio
 
 ```
 .
@@ -77,7 +77,7 @@ graph TD;
 
 ---
 
-## 4. Instrucciones de Uso
+## 5. Instrucciones de Uso
 
 ### Prerrequisitos
 
