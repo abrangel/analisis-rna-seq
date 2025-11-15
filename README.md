@@ -100,7 +100,8 @@ graph TD;
 ---
 
 ## 4. Instrucciones de Uso
-
+### Pre-requisitos
+#### Instalar git, use el siguiente comando: winget install --id Git.Git -e --source winget
 ### Prerrequisitos
 
 -   Python 3.x
