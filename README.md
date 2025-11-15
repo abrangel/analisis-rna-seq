@@ -133,6 +133,6 @@ URL del Diagrama de Venn: https://github.com/abrangel/analisis-rna-seq/blob/main
     -   SNTB2
         Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos secretores
 ### Lista de genes/proteínas de humano y realiza el análisis de anotación seleccionando:
-► Gene Ontology (GO) biological process.
-► Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways.
-► Reactome
+1.  **Gene Ontology (GO) biological process.
+2.  **Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways.
+3.  **Reactome
