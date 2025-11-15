@@ -168,7 +168,7 @@ El análisis de enriquecimiento funcional realizado en GeneCodis utilizando la b
 
 El análisis de enriquecimiento funcional basado en Reactome mostró que el gen ABCA1 se asocia con múltiples rutas relacionadas con el metabolismo y transporte de colesterol, incluyendo ensamblaje de HDL, señalización mediada por NR1H2/NR1H3, desórdenes de transportadores ABC y el fenotipo patológico causado por mutaciones en ABCA1. SCN1A se relaciona con procesos eléctricos celulares, particularmente con la fase 0 de despolarización rápida y la interacción entre moléculas L1 y anquirinas, lo que sugiere un papel en la excitabilidad neuronal. Por su parte, KPNA3 se vincula con mecanismos antivirales mediados por ISG15 y con la modulación de rutas celulares inducida por proteínas virales como NS1. En conjunto, los resultados indican que los genes analizados participan en rutas Reactome funcionalmente distintas, destacando el papel central de ABCA1 en el metabolismo lipídico, mientras que SCN1A y KPNA3 se asocian a procesos específicos de excitabilidad celular y respuesta antiviral, respectivamente.
 ## Pathways
-### Metabolismo del Colesterol (ABCA1)
+### Metabolismo del Colesterol
 <img width="600" height="400" alt="image" src="https://github.com/abrangel/analisis-rna-seq/blob/main/results/ABCA1%20Pathway.png" />
 
 #### ABCA1 (ATP-Binding Cassette Subfamily A Member 1)
