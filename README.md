@@ -114,4 +114,4 @@ graph TD;
     -   Los archivos finales se encuentran en la carpeta `results`. Puedes abrirlos con un editor de texto o un programa de hojas de cálculo.
   
 ## 5. Verificación de 5 genes en comun con Venn
-![Venn] <img width="880" height="538" alt="image" src=" https://github.com/abrangel/analisis-rna-seq/blob/main/results/venn_result19894.png"
+![Venn] <img width="880" height="538" alt="image" src=" https://github.com/abrangel/analisis-rna-seq/blob/main/results/venn_result19894.png"  />
