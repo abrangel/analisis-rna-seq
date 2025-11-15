@@ -142,7 +142,6 @@ graph TD;
         Se encarga de la represión de la transcripción de la ciclina CCND1 y la reducción del crecimiento celular. 
 #### SNTB2
         Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos secretores.
-### Lista de genes/proteínas de humano y realiza el análisis de anotación seleccionando:
 
 ### Lista de genes/proteínas de humano y realiza el análisis de anotación seleccionando:
 
@@ -168,3 +167,23 @@ El análisis de enriquecimiento funcional realizado en GeneCodis utilizando la b
 </p>
 
 El análisis de enriquecimiento funcional basado en Reactome mostró que el gen ABCA1 se asocia con múltiples rutas relacionadas con el metabolismo y transporte de colesterol, incluyendo ensamblaje de HDL, señalización mediada por NR1H2/NR1H3, desórdenes de transportadores ABC y el fenotipo patológico causado por mutaciones en ABCA1. SCN1A se relaciona con procesos eléctricos celulares, particularmente con la fase 0 de despolarización rápida y la interacción entre moléculas L1 y anquirinas, lo que sugiere un papel en la excitabilidad neuronal. Por su parte, KPNA3 se vincula con mecanismos antivirales mediados por ISG15 y con la modulación de rutas celulares inducida por proteínas virales como NS1. En conjunto, los resultados indican que los genes analizados participan en rutas Reactome funcionalmente distintas, destacando el papel central de ABCA1 en el metabolismo lipídico, mientras que SCN1A y KPNA3 se asocian a procesos específicos de excitabilidad celular y respuesta antiviral, respectivamente.
+## Pathways
+### Metabolismo del Colesterol (ABCA1)
+<img width="600" height="400" alt="image" src="https://github.com/abrangel/analisis-rna-seq/blob/main/results/ABCA1%20Pathway.png" />
+#### ABCA1 (ATP-Binding Cassette Subfamily A Member 1)
+    Actúa como un transportador de eflujo de colesterol y fosfolípidos. En los tejidos periféricos y hepatocitos, bombea colesterol libre (FC) y fosfolípidos hacia afuera de la célula para cargarlos en ApoA-I no lipidada, iniciando la formación de HDL naciente. Este proceso es fundamental para el transporte inverso del colesterol (eliminar el exceso de colesterol de los tejidos).
+### Cardiomiopatía Ventricular Derecha Arritmogénica
+<img width="600" height="400" alt="image" src="https://github.com/abrangel/analisis-rna-seq/blob/main/results/SNTB2%20Pathway.png" />
+#### SNTB2 (Beta-2-Sarcoglicano)	
+    Forma parte del complejo de la sarcoglicana (junto con SGCA, SGCB, y SGCD), que a su vez se integra en el complejo de la distrofina-glicoproteína. Este complejo es crucial para anclar el citoesqueleto de actina (sarcomero) a la matriz extracelular (ECM) a través de la laminina, asegurando la integridad estructural de la célula muscular cardíaca.
+### Transporte Nucleocitoplasmático
+<img width="600" height="400" alt="image" src="https://github.com/abrangel/analisis-rna-seq/blob/main/results/KPNA3%20Pathway.png" />
+#### KPNA3 (Importina-alfa 3)	
+    Es una proteína adaptadora de importación nuclear (miembro de la familia de las carioferinas o importinas). Reconoce y se une a la Secuencia de Localización Nuclear (NLS) de las proteínas que deben ingresar al núcleo. Luego, se asocia con una importina-beta (como KPNB1/Importin) para ser transportada a través del NPC hacia el núcleo.
+### Sinapsis Dopaminérgica
+<img width="600" height="400" alt="image" src="https://github.com/abrangel/analisis-rna-seq/blob/main/results/SCN1A%20Pathway.png" />
+#### SCN1A (Canal de Sodio dependiente de voltaje, Subunidad alfa 1)
+    Codifica la subunidad alfa del canal de sodio, un canal iónico crucial para la generación y propagación del potencial de acción en las neuronas. Aunque no está directamente en el ciclo de la dopamina, estos canales son vitales para la excitabilidad neuronal. En la vía se muestra que su actividad regula la excitabilidad que puede modular la liberación o respuesta en la sinapsis, afectando indirectamente la señalización dopaminérgica.
+### Gen TSC22D2 
+    TSC22D2 es un factor de transcripción putativo y se ha demostrado que es un regulador de crecimiento celular negativo. Su mecanismo de acción principal conocido es la interacción con la enzima glucolítica PKM2 (Pyruvate Kinase Isoform M2) y la subsiguiente represión de la transcripción de Ciclina D1. Aunque no figura como un componente de una vía enzimática o de señalización clásica, su papel como regulador maestro en el control del ciclo celular y la proliferación lo convierte en un gen de alta relevancia biológica.
+
