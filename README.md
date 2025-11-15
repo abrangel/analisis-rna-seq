@@ -1,11 +1,11 @@
 ﻿# Análisis de Dianas Comunes de miRNAs y Rutas de Señalización
 
 ## Integrantes
- Alanis Rafaela Jarre Moreano
- Claudia Melissa Alvarado Cantos
- Andrés Dario Ñauñay Puente
- Cesar Abrahan Manzo Carvajal
- Ana Belén Mejía Pérez
+- Alanis Rafaela Jarre Moreano  
+- Claudia Melissa Alvarado Cantos  
+- Andrés Darío Ñauñay Puente  
+- Cesar Abrahan Manzo Carvajal  
+- Ana Belén Pérez  
 
 ## 1. Resumen del Proyecto
 
