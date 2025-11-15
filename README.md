@@ -117,7 +117,7 @@ graph TD;
 URL del Diagrama de Venn: https://github.com/abrangel/analisis-rna-seq/blob/main/results/venn_result19894.png
 ### Análisis de verificación de los 5 genes en común
     -   ABCA1
-        Destaca en el presente caso clínico. Al utilizar ATP genera la translocación de fosfolípidos desde la monocapa citoplasmática a la extracelular de la membrana, de este modo participa en la transferencia          de fosfolípidos a las apolipoproteínas para formar lipoproteínas de alta densidad (HDL). Además, podría participar en la liberación de colesterol intracelular hacia las apolipoproteínas.
+        Destaca en el presente caso clínico. Al utilizar ATP genera la translocación de fosfolípidos desde la monocapa citoplasmática a la extracelular de la membrana, de este modo participa en la transferencia de fosfolípidos a las apolipoproteínas para formar lipoproteínas de alta densidad (HDL). Además, podría participar en la liberación de colesterol intracelular hacia las apolipoproteínas.
     -   KPNA3 
         Participa en la importación de proteínas nucleares como proteína adaptadora del receptor nuclear KPNB1.
     -   SCN1A
@@ -125,4 +125,4 @@ URL del Diagrama de Venn: https://github.com/abrangel/analisis-rna-seq/blob/main
     -   TSC22D2 
         Se encarga de la represión de la transcripción de la ciclina CCND1 y la reducción del crecimiento celular 
     -   SNTB2
-        Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos                  secretores
+        Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos secretores
