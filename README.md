@@ -131,7 +131,7 @@ URL del Diagrama de Venn: https://github.com/abrangel/analisis-rna-seq/blob/main
     -   TSC22D2 
         Se encarga de la represión de la transcripción de la ciclina CCND1 y la reducción del crecimiento celular. 
     -   SNTB2
-        Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos. secretores
+        Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos secretores.
 ### Lista de genes/proteínas de humano y realiza el análisis de anotación seleccionando:
 #### Gene Ontology (GO) biological process.
 #### Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways.
