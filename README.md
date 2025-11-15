@@ -144,10 +144,14 @@ graph TD;
         Puede conectar varios receptores al citoesqueleto y al complejo de glicoproteínas de distrofina, incluso podría mediante su interacción con PTPRN desempeñar un papel en la regulación de gránulos secretores.
 ### Lista de genes/proteínas de humano y realiza el análisis de anotación seleccionando:
 
+### Lista de genes/proteínas de humano y realiza el análisis de anotación seleccionando:
+
 #### Gene Ontology (GO) biological process.
 <p align="center">
   <img src="https://raw.githubusercontent.com/abrangel/analisis-rna-seq/refs/heads/main/results/GO_BP.png" width="600">
 </p>
+
+El análisis de enriquecimiento basado en ontología génica (GO BP) mostró que los genes identificados se agrupan en procesos biológicos diferenciados. ABCA1 se encuentra asociado principalmente con rutas relacionadas con el metabolismo y transporte de lipoproteínas, incluyendo regulación de la formación de partículas de lipoproteína de alta densidad (HDL), señalización mediada por apolipoproteína A-I, secreción de péptidos, metabolismo de esfingolípidos y respuesta a vitamina B3. SCN1A aparece vinculado a procesos de señalización neuronal, mientras que KPNA3 se asocia con mecanismos celulares implicados en la penetración viral al núcleo del huésped. La distribución de los términos indica que ABCA1 concentra la mayor parte de las anotaciones funcionales, sugiriendo un papel central en el metabolismo lipídico y la homeostasis celular, mientras que los otros genes participan en funciones más específicas y no solapadas.
 
 #### Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways.
 
@@ -155,8 +159,12 @@ graph TD;
   <img src="https://raw.githubusercontent.com/abrangel/analisis-rna-seq/refs/heads/main/results/KEGG.png" width="600">
 </p>
 
+El análisis de enriquecimiento funcional realizado en GeneCodis utilizando la base de datos KEGG mostró que cada uno de los genes identificados se asocia de manera específica a una única vía biológica. ABCA1 se vincula principalmente con rutas relacionadas con el metabolismo lipídico, incluyendo metabolismo del colesterol, transportadores ABC y digestión de lípidos. KPNA3 se asocia con el transporte núcleo-citoplasma, SCN1A con la sinapsis dopaminérgica y SNTB2 con patologías cardiacas como miocarditis viral y distintas formas de cardiomiopatía. Esto indica que los genes analizados participan en procesos biológicos distintos, sin solapamiento entre rutas, lo que sugiere funciones especializadas dentro del contexto molecular evaluado.
+
 #### Reactome
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/abrangel/analisis-rna-seq/refs/heads/main/results/Reactome.png" width="600">
 </p>
+
+El análisis de enriquecimiento funcional basado en Reactome mostró que el gen ABCA1 se asocia con múltiples rutas relacionadas con el metabolismo y transporte de colesterol, incluyendo ensamblaje de HDL, señalización mediada por NR1H2/NR1H3, desórdenes de transportadores ABC y el fenotipo patológico causado por mutaciones en ABCA1. SCN1A se relaciona con procesos eléctricos celulares, particularmente con la fase 0 de despolarización rápida y la interacción entre moléculas L1 y anquirinas, lo que sugiere un papel en la excitabilidad neuronal. Por su parte, KPNA3 se vincula con mecanismos antivirales mediados por ISG15 y con la modulación de rutas celulares inducida por proteínas virales como NS1. En conjunto, los resultados indican que los genes analizados participan en rutas Reactome funcionalmente distintas, destacando el papel central de ABCA1 en el metabolismo lipídico, mientras que SCN1A y KPNA3 se asocian a procesos específicos de excitabilidad celular y respuesta antiviral, respectivamente.
