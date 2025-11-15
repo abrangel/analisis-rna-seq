@@ -73,8 +73,13 @@ graph TD;
 ├── 📁 notebooks/
 │   └── (Aquí se pueden añadir Jupyter Notebooks para análisis exploratorio)
 ├── 📁 results/
+│   ├── 📄 ABCA1 Pathway.png
+│   ├── 📄 KPNA3 Pathway.png
+│   ├── 📄 SCNA1 Pathway.png
+│   ├── 📄 SNTB2 Pathway.png
 │   ├── 📄 common_genes.txt
-│   └── 📄 pathway_enrichment_results.csv
+│   ├── 📄 pathway_enrichment_results.csv
+│   └── 📄 venn_result19894.png
 ├── 📁 scripts/
 │   ├── 🐍 01_find_common_genes.py
 │   └── 🐍 02_pathway_analysis.py
