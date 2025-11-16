@@ -95,7 +95,8 @@ graph TD;
 ## 4. Instrucciones de Uso
 ### Pre-requisitos
 #### Instalar git, use el siguiente comando:
-```bash
+1.  **instalar git:**
+    ```bash
     winget install --id Git.Git -e --source winget
     ```
 
