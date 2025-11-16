@@ -94,7 +94,11 @@ graph TD;
 
 ## 4. Instrucciones de Uso
 ### Pre-requisitos
-#### Instalar git, use el siguiente comando: winget install --id Git.Git -e --source winget
+#### Instalar git, use el siguiente comando:
+```bash
+    winget install --id Git.Git -e --source winget
+    ```
+
 #### Python 3.x
 #### Las librerías de Python `pandas` y `gseapy`. Se pueden instalar con el siguiente comando:
     ```bash
