@@ -102,6 +102,7 @@ graph TD;
 
 #### Python 3.x
 #### Las librerías de Python `pandas` y `gseapy`. Se pueden instalar con el siguiente comando:
+1.  **instalar pandas gseapy:**
     ```bash
     pip install pandas gseapy
     ```
